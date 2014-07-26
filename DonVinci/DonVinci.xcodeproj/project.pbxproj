@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9922649119690CFC0020D250 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9922649019690CFC0020D250 /* Foundation.framework */; };
+		9922649319690CFC0020D250 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9922649219690CFC0020D250 /* CoreGraphics.framework */; };
+		9922649519690CFC0020D250 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9922649419690CFC0020D250 /* UIKit.framework */; };
+		9922649B19690CFC0020D250 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9922649919690CFC0020D250 /* InfoPlist.strings */; };
+		9922649D19690CFC0020D250 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9922649C19690CFC0020D250 /* main.m */; };
+		992264A119690CFC0020D250 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 992264A019690CFC0020D250 /* AppDelegate.m */; };
+		992264A419690CFC0020D250 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 992264A219690CFC0020D250 /* Main.storyboard */; };
+		992264A719690CFC0020D250 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 992264A619690CFC0020D250 /* ViewController.m */; };
+		992264A919690CFC0020D250 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 992264A819690CFC0020D250 /* Images.xcassets */; };
+		992264B019690CFD0020D250 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 992264AF19690CFD0020D250 /* XCTest.framework */; };
+		992264B119690CFD0020D250 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9922649019690CFC0020D250 /* Foundation.framework */; };
+		992264B219690CFD0020D250 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9922649419690CFC0020D250 /* UIKit.framework */; };
+		992264BA19690CFD0020D250 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 992264B819690CFD0020D250 /* InfoPlist.strings */; };
+		992264BC19690CFD0020D250 /* DonVinciTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 992264BB19690CFD0020D250 /* DonVinciTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		992264B319690CFD0020D250 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9922648519690CFC0020D250 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9922648C19690CFC0020D250;
+			remoteInfo = DonVinci;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9922648D19690CFC0020D250 /* DonVinci.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DonVinci.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9922649019690CFC0020D250 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9922649219690CFC0020D250 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9922649419690CFC0020D250 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9922649819690CFC0020D250 /* DonVinci-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DonVinci-Info.plist"; sourceTree = "<group>"; };
+		9922649A19690CFC0020D250 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9922649C19690CFC0020D250 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9922649E19690CFC0020D250 /* DonVinci-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DonVinci-Prefix.pch"; sourceTree = "<group>"; };
+		9922649F19690CFC0020D250 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		992264A019690CFC0020D250 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		992264A319690CFC0020D250 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		992264A519690CFC0020D250 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		992264A619690CFC0020D250 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		992264A819690CFC0020D250 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		992264AE19690CFD0020D250 /* DonVinciTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DonVinciTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		992264AF19690CFD0020D250 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		992264B719690CFD0020D250 /* DonVinciTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DonVinciTests-Info.plist"; sourceTree = "<group>"; };
+		992264B919690CFD0020D250 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		992264BB19690CFD0020D250 /* DonVinciTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DonVinciTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9922648A19690CFC0020D250 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9922649319690CFC0020D250 /* CoreGraphics.framework in Frameworks */,
+				9922649519690CFC0020D250 /* UIKit.framework in Frameworks */,
+				9922649119690CFC0020D250 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		992264AB19690CFD0020D250 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				992264B019690CFD0020D250 /* XCTest.framework in Frameworks */,
+				992264B219690CFD0020D250 /* UIKit.framework in Frameworks */,
+				992264B119690CFD0020D250 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9922648419690CFC0020D250 = {
+			isa = PBXGroup;
+			children = (
+				9922649619690CFC0020D250 /* DonVinci */,
+				992264B519690CFD0020D250 /* DonVinciTests */,
+				9922648F19690CFC0020D250 /* Frameworks */,
+				9922648E19690CFC0020D250 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9922648E19690CFC0020D250 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9922648D19690CFC0020D250 /* DonVinci.app */,
+				992264AE19690CFD0020D250 /* DonVinciTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9922648F19690CFC0020D250 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9922649019690CFC0020D250 /* Foundation.framework */,
+				9922649219690CFC0020D250 /* CoreGraphics.framework */,
+				9922649419690CFC0020D250 /* UIKit.framework */,
+				992264AF19690CFD0020D250 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9922649619690CFC0020D250 /* DonVinci */ = {
+			isa = PBXGroup;
+			children = (
+				9922649F19690CFC0020D250 /* AppDelegate.h */,
+				992264A019690CFC0020D250 /* AppDelegate.m */,
+				992264A219690CFC0020D250 /* Main.storyboard */,
+				992264A519690CFC0020D250 /* ViewController.h */,
+				992264A619690CFC0020D250 /* ViewController.m */,
+				992264A819690CFC0020D250 /* Images.xcassets */,
+				9922649719690CFC0020D250 /* Supporting Files */,
+			);
+			path = DonVinci;
+			sourceTree = "<group>";
+		};
+		9922649719690CFC0020D250 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9922649819690CFC0020D250 /* DonVinci-Info.plist */,
+				9922649919690CFC0020D250 /* InfoPlist.strings */,
+				9922649C19690CFC0020D250 /* main.m */,
+				9922649E19690CFC0020D250 /* DonVinci-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		992264B519690CFD0020D250 /* DonVinciTests */ = {
+			isa = PBXGroup;
+			children = (
+				992264BB19690CFD0020D250 /* DonVinciTests.m */,
+				992264B619690CFD0020D250 /* Supporting Files */,
+			);
+			path = DonVinciTests;
+			sourceTree = "<group>";
+		};
+		992264B619690CFD0020D250 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				992264B719690CFD0020D250 /* DonVinciTests-Info.plist */,
+				992264B819690CFD0020D250 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9922648C19690CFC0020D250 /* DonVinci */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 992264BF19690CFD0020D250 /* Build configuration list for PBXNativeTarget "DonVinci" */;
+			buildPhases = (
+				9922648919690CFC0020D250 /* Sources */,
+				9922648A19690CFC0020D250 /* Frameworks */,
+				9922648B19690CFC0020D250 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DonVinci;
+			productName = DonVinci;
+			productReference = 9922648D19690CFC0020D250 /* DonVinci.app */;
+			productType = "com.apple.product-type.application";
+		};
+		992264AD19690CFD0020D250 /* DonVinciTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 992264C219690CFD0020D250 /* Build configuration list for PBXNativeTarget "DonVinciTests" */;
+			buildPhases = (
+				992264AA19690CFD0020D250 /* Sources */,
+				992264AB19690CFD0020D250 /* Frameworks */,
+				992264AC19690CFD0020D250 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				992264B419690CFD0020D250 /* PBXTargetDependency */,
+			);
+			name = DonVinciTests;
+			productName = DonVinciTests;
+			productReference = 992264AE19690CFD0020D250 /* DonVinciTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9922648519690CFC0020D250 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = DonVincisWorkshop;
+				TargetAttributes = {
+					992264AD19690CFD0020D250 = {
+						TestTargetID = 9922648C19690CFC0020D250;
+					};
+				};
+			};
+			buildConfigurationList = 9922648819690CFC0020D250 /* Build configuration list for PBXProject "DonVinci" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9922648419690CFC0020D250;
+			productRefGroup = 9922648E19690CFC0020D250 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9922648C19690CFC0020D250 /* DonVinci */,
+				992264AD19690CFD0020D250 /* DonVinciTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9922648B19690CFC0020D250 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				992264A919690CFC0020D250 /* Images.xcassets in Resources */,
+				9922649B19690CFC0020D250 /* InfoPlist.strings in Resources */,
+				992264A419690CFC0020D250 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		992264AC19690CFD0020D250 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				992264BA19690CFD0020D250 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9922648919690CFC0020D250 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				992264A719690CFC0020D250 /* ViewController.m in Sources */,
+				992264A119690CFC0020D250 /* AppDelegate.m in Sources */,
+				9922649D19690CFC0020D250 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		992264AA19690CFD0020D250 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				992264BC19690CFD0020D250 /* DonVinciTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		992264B419690CFD0020D250 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9922648C19690CFC0020D250 /* DonVinci */;
+			targetProxy = 992264B319690CFD0020D250 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9922649919690CFC0020D250 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9922649A19690CFC0020D250 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		992264A219690CFC0020D250 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				992264A319690CFC0020D250 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		992264B819690CFD0020D250 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				992264B919690CFD0020D250 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		992264BD19690CFD0020D250 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		992264BE19690CFD0020D250 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		992264C019690CFD0020D250 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DonVinci/DonVinci-Prefix.pch";
+				INFOPLIST_FILE = "DonVinci/DonVinci-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		992264C119690CFD0020D250 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DonVinci/DonVinci-Prefix.pch";
+				INFOPLIST_FILE = "DonVinci/DonVinci-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		992264C319690CFD0020D250 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DonVinci.app/DonVinci";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DonVinci/DonVinci-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "DonVinciTests/DonVinciTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		992264C419690CFD0020D250 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DonVinci.app/DonVinci";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DonVinci/DonVinci-Prefix.pch";
+				INFOPLIST_FILE = "DonVinciTests/DonVinciTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9922648819690CFC0020D250 /* Build configuration list for PBXProject "DonVinci" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				992264BD19690CFD0020D250 /* Debug */,
+				992264BE19690CFD0020D250 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		992264BF19690CFD0020D250 /* Build configuration list for PBXNativeTarget "DonVinci" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				992264C019690CFD0020D250 /* Debug */,
+				992264C119690CFD0020D250 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		992264C219690CFD0020D250 /* Build configuration list for PBXNativeTarget "DonVinciTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				992264C319690CFD0020D250 /* Debug */,
+				992264C419690CFD0020D250 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9922648519690CFC0020D250 /* Project object */;
+}
